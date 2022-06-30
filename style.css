@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(118, 126, 228);
+
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.3rem;
+}
+
+.container {
+  background-color: white;
+
+  text-align: center;
+
+  width: 30em;
+  border-radius: 6px;
+
+  padding: 2em;
+  margin: 14em auto 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+span {
+  font-size: 4rem;
+}
+
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  color: white;
+  background-color: rgb(20, 20, 20);
+  border: none;
+
+  margin-top: 1em;
+  font-size: 1.3rem;
+  width: 4em;
+  height: 2em;
+}
+
+.active {
+  background-color: rgb(207, 189, 189);
+  color: black;
+}
+
+.paused {
+  color: red;
+}
